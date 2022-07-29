@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<goosePdu>
+    <dataset Source = "0a:00:27:00:00:15"
+             Destination = "0a:00:27:00:00:55"
+             time="true"
+             quality="true"
+             IfaceIp = "192.168.1.213"
+             TimeType = "utc"
+    >
+
+        <Data   type = "boolean"  />
+        <Data   type = "integer"  />
+        <Data   type = "float"  />
+
+    </dataset>
+
+</goosePdu>
