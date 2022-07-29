@@ -1,2 +1,6 @@
 # GOOSE_parser
-Capturing and parsing goose packets according to the config file
+### Capturing and parsing goose packets according to the config file
+## Обзор
+### Согласно конфигурационному файлу происходит отбор пакетов, захват происходит через интерфейс ethernet.
+В классе main происходит парсинг конфиг файла способом DOM, затем запускается листенер (GooseAdapter), создается фоновый поток (loop), внутри которого отибраются подходящие пакеты.
+После того как пакет распарсился, на экран выводится его Header и Data
